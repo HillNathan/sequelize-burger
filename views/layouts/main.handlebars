@@ -12,10 +12,14 @@
         crossorigin="anonymous">
   <link rel="stylesheet" 
         href="./assets/css/style.css">
+  <link rel="stylesheet" 
+        href="./assets/css/modal-div.css">
+
 
 <!-- Including required Javascript files -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://kit.fontawesome.com/87d17db429.js"></script>
+  <script src="./assets/js/modal-div.js"></script>
 
 </head>
 <body>
@@ -26,6 +30,11 @@
     </header>
 
     {{{body}}}
+
+  <div class="my-alert">
+      <div class="alert-text">Alert Text to go here.</div>
+      <button id="clear-alert" class="btn btn-warning mt-2">OK</button>
+  </div>
 
 </body>
 </html>
